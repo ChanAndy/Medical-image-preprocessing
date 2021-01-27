@@ -12,7 +12,7 @@ import numpy as np
 import os
 
 # The split ROI files drawn by different doctors should be in the nii_path folder
-nii_path = r"D:\SSY\data_202003\ICC\ICC"
+nii_path = r"D:..."
 nii_list = os.listdir(nii_path)
 nii_length = len(nii_list)
 counter = 0
@@ -56,8 +56,8 @@ print("average_dsc:{}".format(average_dsc))
 
 # Test the code for just one example
 """
-doctor_1 = nib.load(r"D:\SSY\data_202003\ICC\ICC/chenhuichanvoi2.nii")
-doctor_2 = nib.load(r"D:\SSY\data_202003\ICC\ICC/chenhuichanvoi3.nii")
+doctor_1 = nib.load(r"....nii")
+doctor_2 = nib.load(r"....nii")
 
 data_1 = doctor_1.get_data()
 data_2 = doctor_2.get_data()
